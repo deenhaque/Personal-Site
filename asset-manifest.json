@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.js": "/static/js/main.d6ff092e.chunk.js",
+    "main.js.map": "/static/js/main.d6ff092e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f16d933f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f16d933f.js.map",
+    "static/js/2.d81e01dd.chunk.js": "/static/js/2.d81e01dd.chunk.js",
+    "static/js/2.d81e01dd.chunk.js.map": "/static/js/2.d81e01dd.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.d81e01dd.chunk.js.LICENSE.txt": "/static/js/2.d81e01dd.chunk.js.LICENSE.txt",
+    "static/media/DeenHaque2021.2c42832f.pdf": "/static/media/DeenHaque2021.2c42832f.pdf",
+    "static/media/bitter-v17-latin-300.3253205e.woff": "/static/media/bitter-v17-latin-300.3253205e.woff",
+    "static/media/bitter-v17-latin-300.355fdeea.eot": "/static/media/bitter-v17-latin-300.355fdeea.eot",
+    "static/media/bitter-v17-latin-300.6f2d5156.ttf": "/static/media/bitter-v17-latin-300.6f2d5156.ttf",
+    "static/media/bitter-v17-latin-300.b5cc40e1.svg": "/static/media/bitter-v17-latin-300.b5cc40e1.svg",
+    "static/media/bitter-v17-latin-300.cc3bb613.woff2": "/static/media/bitter-v17-latin-300.cc3bb613.woff2",
+    "static/media/document.cba10cc3.svg": "/static/media/document.cba10cc3.svg",
+    "static/media/github.3dd29ac6.svg": "/static/media/github.3dd29ac6.svg",
+    "static/media/instagram.691b5887.svg": "/static/media/instagram.691b5887.svg",
+    "static/media/lato-v17-latin-regular.319df0f5.woff": "/static/media/lato-v17-latin-regular.319df0f5.woff",
+    "static/media/lato-v17-latin-regular.65e877e5.woff2": "/static/media/lato-v17-latin-regular.65e877e5.woff2",
+    "static/media/lato-v17-latin-regular.6a8ad33d.eot": "/static/media/lato-v17-latin-regular.6a8ad33d.eot",
+    "static/media/lato-v17-latin-regular.ec530704.svg": "/static/media/lato-v17-latin-regular.ec530704.svg",
+    "static/media/lato-v17-latin-regular.f71f2288.ttf": "/static/media/lato-v17-latin-regular.f71f2288.ttf",
+    "static/media/linkedin.1b2b4bc4.svg": "/static/media/linkedin.1b2b4bc4.svg",
+    "static/media/saira-condensed-v6-latin-200.6b4bfa71.woff2": "/static/media/saira-condensed-v6-latin-200.6b4bfa71.woff2",
+    "static/media/saira-condensed-v6-latin-200.865372d4.eot": "/static/media/saira-condensed-v6-latin-200.865372d4.eot",
+    "static/media/saira-condensed-v6-latin-200.cdcdb198.woff": "/static/media/saira-condensed-v6-latin-200.cdcdb198.woff",
+    "static/media/saira-condensed-v6-latin-200.e49c5760.svg": "/static/media/saira-condensed-v6-latin-200.e49c5760.svg",
+    "static/media/saira-condensed-v6-latin-200.f3cbf535.ttf": "/static/media/saira-condensed-v6-latin-200.f3cbf535.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f16d933f.js",
+    "static/js/2.d81e01dd.chunk.js",
+    "static/js/main.d6ff092e.chunk.js"
+  ]
+}
