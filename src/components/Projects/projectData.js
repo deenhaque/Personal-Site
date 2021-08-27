@@ -1,3 +1,22 @@
+export const extraCurriculars = [
+  {
+    name: 'Organizer/Developer',
+    organization: 'cuHacking',
+    tech: ['ReactJS', 'TypeScript', 'Electron'],
+    description:
+      "I'm developing a map editing tool that allows users to input geojson data to build create maps.",
+    link: ''
+  },
+  {
+    name: 'Front End Developer',
+    organization: 'SpaceLab',
+    tech: ['ReactJS', 'SCSS'],
+    description:
+      "I'm working on the SpaceLab website with the other SpaceLab developers!",
+    link: ''
+  }
+];
+
 export const projects = [
   {
     name: 'Sundial',
@@ -40,22 +59,46 @@ export const projects = [
   }
 ];
 
-export const extraCurriculars = [
+export const skills = [
   {
-    name: 'Organizer/Developer',
-    organization: 'cuHacking',
-    tech: ['ReactJS', 'TypeScript', 'Electron'],
+    name: 'ReactJS',
     description:
-      "I'm developing a map editing tool that allows users to input geojson data to build create maps.",
-    link: ''
+      'I LOVE ReactJS. The React dynamic when making web apps really speaks to me and makes React dev fun lol'
   },
   {
-    name: 'Front End Developer',
-    organization: 'SpaceLab',
-    tech: ['ReactJS', 'SCSS'],
+    name: 'React Native',
     description:
-      "I'm working on the SpaceLab website with the other SpaceLab developers!",
-    link: ''
+      'React Native mobile development is really cool! I love that I can make mobile apps kind of the same way as I make websites'
+  },
+  {
+    name: 'TypeScript',
+    description:
+      "I've started using TypeScript because the type checking is really cool!"
+  },
+  {
+    name: 'JavaScript',
+    description:
+      "THE web development language. I've used JS to build client-facing apps and servers"
+  },
+  {
+    name: 'Python',
+    description:
+      "I've used Python almost exclusively for school projects and stuff, I think Python is a really cool language"
+  },
+  {
+    name: 'C',
+    description:
+      "I worked with C for various school projects and for one of my internships. It's a really cool low level language, that it feels like one can do almost anything with"
+  },
+  {
+    name: 'C++',
+    description:
+      "I've used C++ mainly for school projects. I like how slick it feels, along with how low level it can be."
+  },
+  {
+    name: 'Java',
+    description:
+      'Java is my first language. I learnt the basic OOP principles with Java while also making a 2D game about Shaq chasing basketballs on the moon'
   }
 ];
 
