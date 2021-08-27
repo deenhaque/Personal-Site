@@ -5,7 +5,7 @@ import {
   Flow,
   LocationText,
   SpanStyle,
-  StyledHeader,
+  StyledHeader
 } from './AboutStyling';
 import { Text } from '../indexIsABoringName';
 
@@ -23,78 +23,78 @@ const locations = [
   {
     id: '1',
     data: {
-      label: <LocationLabel home country="Saudi Arabia" city="Jeddah" />,
+      label: <LocationLabel home country='Saudi Arabia' city='Jeddah' />
     },
     position: coordinates(15, 125),
     sourcePosition: 'right',
-    targetPosition: 'right',
+    targetPosition: 'right'
   },
   {
     id: '2',
     data: {
-      label: <LocationLabel home country="Qatar" city="Doha" />,
+      label: <LocationLabel home country='Qatar' city='Doha' />
     },
     position: coordinates(165, 125),
     sourcePosition: 'right',
-    targetPosition: 'left',
+    targetPosition: 'left'
   },
   {
     id: '3',
     data: {
-      label: <LocationLabel home country="Bangladesh" city="Dhaka" />,
+      label: <LocationLabel home country='Bangladesh' city='Dhaka' />
     },
     position: coordinates(315, 125),
     sourcePosition: 'right',
-    targetPosition: 'left',
+    targetPosition: 'left'
   },
   {
     id: '4',
     data: {
-      label: <LocationLabel home country="Canada" city="Ottawa" />,
+      label: <LocationLabel home country='Canada' city='Ottawa' />
     },
     position: coordinates(465, 125),
     sourcePosition: 'right',
-    targetPosition: 'left',
+    targetPosition: 'left'
   },
   {
     id: '5',
     data: {
-      label: <LocationLabel country="Thailand" city="Bangkok" />,
+      label: <LocationLabel country='Thailand' city='Bangkok' />
     },
     position: coordinates(385, 25),
     sourcePosition: 'bottom',
     targetPosition: 'bottom',
-    className: 'visit',
+    className: 'visit'
   },
   {
     id: '6',
     data: {
-      label: <LocationLabel country="England" city="London" />,
+      label: <LocationLabel country='England' city='London' />
     },
     position: coordinates(385, 225),
     sourcePosition: 'top',
     targetPosition: 'top',
-    className: 'visit',
+    className: 'visit'
   },
   {
     id: '7',
     data: {
-      label: <LocationLabel country="US" city="New York" />,
+      label: <LocationLabel country='US' city='New York' />
     },
     position: coordinates(535, 225),
     sourcePosition: 'top',
     targetPosition: 'top',
-    className: 'visit',
+    className: 'visit'
   },
   {
     id: '8',
     data: {
-      label: <LocationLabel country="Canada" city="Toronto" />,
+      label: <LocationLabel country='Canada' city='Toronto' />
     },
     position: coordinates(535, 25),
     sourcePosition: 'bottom',
     targetPosition: 'bottom',
-    className: 'visit',
+    className: 'visit'
   },
   { id: 'e1-2', source: '1', target: '2', animated: true, type: 'smoothstep' },
   { id: 'e2-3', source: '2', target: '3', animated: true, type: 'smoothstep' },
@@ -102,16 +102,16 @@ const locations = [
   { id: 'e3-5', source: '3', target: '5', animated: true, type: 'smoothstep' },
   { id: 'e3-6', source: '3', target: '6', animated: true, type: 'smoothstep' },
   { id: 'e4-7', source: '4', target: '7', animated: true, type: 'smoothstep' },
-  { id: 'e4-8', source: '4', target: '8', animated: true, type: 'smoothstep' },
+  { id: 'e4-8', source: '4', target: '8', animated: true, type: 'smoothstep' }
 ];
 
 const About = () => {
   const greetings = [
-    <SpanStyle key="👋">Hello There! 👋</SpanStyle>,
-    <SpanStyle key="😤">Welcome! 😤</SpanStyle>,
-    <SpanStyle key="🖖">Live Long and Prosper! 🖖</SpanStyle>,
-    <SpanStyle key="🤠">Howdy! 🤠</SpanStyle>,
-    <SpanStyle key="🎅">Ho Ho Ho! 🎅</SpanStyle>,
+    <SpanStyle key='👋'>Hello There! 👋</SpanStyle>,
+    <SpanStyle key='😤'>Welcome! 😤</SpanStyle>,
+    <SpanStyle key='🖖'>Live Long and Prosper! 🖖</SpanStyle>,
+    <SpanStyle key='🤠'>Howdy! 🤠</SpanStyle>,
+    <SpanStyle key='🎅'>Ho Ho Ho! 🎅</SpanStyle>
   ];
 
   return (
@@ -145,14 +145,14 @@ const About = () => {
       <StyledHeader>Fun Stuff</StyledHeader>
       <Text>
         In my free time, I like to play
-        <Text href="https://gfycat.com/comfortablefavorableeyas">
+        <Text href='https://gfycat.com/comfortablefavorableeyas'>
           {' '}
           volleyball{' '}
         </Text>
         (very) recreationally, work out, try random food places, or just vibe.
-        <br />
-        <br />
       </Text>
+      <br />
+      <br />
       <StyledHeader>Dev Stuff</StyledHeader>
       <Text>
         I like web stuff; I love and have worked mostly with React, but I'm
@@ -163,6 +163,9 @@ const About = () => {
         My contact information is around, and you can check out the other pages
         on my site. 🤠
       </Text>
+      <br />
+      <br />
+      <br />
     </>
   );
 };

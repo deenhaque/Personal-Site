@@ -79,16 +79,27 @@ const SkillsDiv = styled.div`
   justify-content: space-evenly;
 `;
 
-const Skills = styled.span`
+export const SkillSection = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+`;
+
+export const Skills = styled.span`
   font-family: ${(props) =>
     (props.font || props.theme.fonts.lato) + ', sans-serif'};
   font-size: 1.1em;
   font-weight: 600;
   color: ${({ theme }) => theme.primary};
   margin: 5px 0px;
-  padding: 5px 5px;
+  padding: 5px 15px;
   display: inline-block;
   text-align: center;
+  border: ${({ active, theme }) =>
+    active ? `1px outset ${theme.textColor}` : 'none'};
+  border-radius: 10px;
+  cursor: ${({ point }) => (point ? 'pointer' : 'auto')}; ;
 `;
 
 export const Project = ({
@@ -97,7 +108,7 @@ export const Project = ({
   organization,
   tech,
   description,
-  link,
+  link
 }) => {
   const redirect = (link) => window.open(link, '_blank', 'noopener,noreferrer');
   return (
