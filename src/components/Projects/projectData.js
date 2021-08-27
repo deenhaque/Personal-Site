@@ -18,7 +18,7 @@ export const projects = [
     tech: ['ReactJS'],
     description:
       "Grade Calculator takes your grades and crunches the numbers for you to tell you how you're doing and what you need to get the grade you want.",
-    link: 'https://github.com/The-Homiesexuals/imghost',
+    link: 'https://github.com/deenhaque/grade-calculator/',
   },
   {
     name: 'Personal Website',
