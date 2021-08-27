@@ -92,7 +92,8 @@ const Projects = () => {
   return (
     <>
       <Text>
-        These are some of the languages/frameworks I know stuff about:
+        These are some of the languages/frameworks I know stuff about.
+        Click/hover on them for some extra info!
       </Text>
       <SkillSection>
         {skills.map(({ name, description }) => (
