@@ -4,7 +4,7 @@ import viewports from './../viewports';
 
 const ProjectOnHoverAnimation = keyframes`
 	from {
-		height: 100px;
+		height: 150px;
 		/* TODO: Make the text fade in (currently buggy) */
 		p:nth-last-child(1) {
 			opacity: 0;
@@ -23,12 +23,12 @@ const ProjectOffHoverAnimation = keyframes`
 		height: 100%;
 	}
 	to {
-		height: 100px;
+		height: 150px;
 	}
 `;
 
 const StyledProject = styled.div`
-  height: 100px;
+  height: 150px;
   padding: 5px 15px;
   border: 2px solid ${({ theme }) => theme.primary};
   border-radius: 5px;
@@ -36,7 +36,7 @@ const StyledProject = styled.div`
   box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.75);
 
   @media only screen and (${viewports.laptopL}) {
-    height: 125px;
+    height: 175px;
   }
 
   p:nth-last-child(1) {
@@ -77,6 +77,10 @@ const SkillsDiv = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0px;
+  /* margin: 0px; */
+  margin: 20px 10px;
 `;
 
 export const SkillSection = styled.div`
@@ -126,7 +130,7 @@ export const Project = ({
           <Skills key={`${name}-${tech}-${i}`}>{technology}</Skills>
         ))}
       </SkillsDiv>
-      <Text>{description}</Text>
+      <Text center>{description}</Text>
     </StyledProject>
   );
 };
@@ -140,7 +144,7 @@ export const StyledProjects = styled.div`
     grid-template-columns: 50% 50%;
   }
 
-  @media only screen and (${viewports.mobileXL}) {
+  @media only screen and (${viewports.laptop}) {
     grid-template-columns: 100%;
   }
 `;

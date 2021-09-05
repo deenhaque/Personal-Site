@@ -4,7 +4,7 @@ import { ReactComponent as Instagram } from '../../stuff/instagram.svg';
 import { ReactComponent as Github } from '../../stuff/github.svg';
 import { ReactComponent as Linkedin } from '../../stuff/linkedin.svg';
 import { ReactComponent as Document } from '../../stuff/document.svg';
-import resume from './../../stuff/DeenHaque2021.pdf';
+import resume from './../../stuff/DeenHaque.pdf';
 const Footer = () => {
   const email = 'fardeen2000@hotmail.com';
   return (

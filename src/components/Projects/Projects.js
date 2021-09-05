@@ -89,6 +89,9 @@ const Projects = () => {
           <Project project key={`${project.name}-${i}`} {...project} />
         ))}
       </StyledProjects>
+      <br />
+      <br />
+      <br />
     </>
   );
 };

@@ -4,7 +4,7 @@ export const extraCurriculars = [
     organization: 'cuHacking',
     tech: ['ReactJS', 'TypeScript', 'Electron'],
     description:
-      "I'm developing a map editing tool that allows users to input geojson data to build create maps.",
+      "I'm developing a map editing tool that allows users to modify geojson data to create maps.",
     link: ''
   },
   {
@@ -13,6 +13,14 @@ export const extraCurriculars = [
     tech: ['ReactJS', 'SCSS'],
     description:
       "I'm working on the SpaceLab website with the other SpaceLab developers!",
+    link: ''
+  },
+  {
+    name: 'Project Lead',
+    organization: 'cuBlueprint',
+    tech: ['ReactJS'],
+    description:
+      "I'm working with a team of cool React developers to revamp the cuBlueprint website.",
     link: ''
   }
 ];
@@ -29,7 +37,7 @@ export const projects = [
     name: 'ImGhost',
     tech: ['ReactJS', 'React Bootstrap'],
     description:
-      'ImGhost is a (now taken down) public image hosting website that allows users could share any images with other users',
+      'ImGhost is a (now taken down) public image hosting website that allows users could share any images with other users.',
     link: 'https://github.com/The-Homiesexuals/imghost'
   },
   {
@@ -42,7 +50,8 @@ export const projects = [
   {
     name: 'Personal Website',
     tech: ['ReactJS', 'Styled Components'],
-    description: 'Hope you like this project, haha.',
+    description:
+      'Hope you like this project, haha. The site will probably constantly be changing as I figure out what makes the site easier for users to digest.',
     link: 'https://github.com/deenhaque/Personal-Site/'
   },
   {
@@ -72,8 +81,7 @@ export const skills = [
   },
   {
     name: 'TypeScript',
-    description:
-      "I've started using TypeScript because the type checking is really cool!"
+    description: 'JS with types. Need I say more?'
   },
   {
     name: 'JavaScript',
@@ -93,7 +101,7 @@ export const skills = [
   {
     name: 'C++',
     description:
-      "I've used C++ mainly for school projects. I like how slick it feels, along with how low level it can be."
+      "I've used C++ mainly for school projects. I like how slick it feels, along with how low level it can be"
   },
   {
     name: 'Java',
@@ -115,13 +123,13 @@ export const workExperience = [
     organization: 'Ross Video',
     tech: ['C', 'GTK'],
     description:
-      'I worked with the Switcher team to write features and fix bugs for the switcher simulator.'
+      'I worked with the Switcher team to write features and fix bugs for the switcher simulator'
   },
   {
     name: 'Server Side Cloud Developer',
     organization: 'Enghouse Espial Inc.',
-    tech: ['JavaScript', 'Mocha', 'AWS'],
+    tech: ['JavaScript', 'Mocha', 'AWS', 'NodeJS'],
     description:
-      "I created new features, maintained existing ones, and automated testing for it all to ensure Espial's Elevate product works flawlessly."
+      "I created new features, maintained existing ones, and automated testing for it all to ensure Espial's Elevate product works flawlessly"
   }
 ];

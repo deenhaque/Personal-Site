@@ -11,10 +11,12 @@ const palettes = ['Blue', 'Red', 'Green', 'Dark'];
 
 const App = () => {
   const [palette, setPalette] = useState(
-    window.localStorage.getItem('palette') || 'blue'
+    window.localStorage.getItem('palette') || 'Blue'
   );
+  console.log('palette', palette);
 
   const updatePalette = ({ target: { textContent } }) => {
+    console.log('palette', palette);
     window.localStorage.setItem('palette', textContent);
     // TODO: Set the meta tag's theme colour to the theme's background
     return setPalette(textContent);
