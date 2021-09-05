@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/static/js/main.ac8e70d8.chunk.js",
-    "main.js.map": "/static/js/main.ac8e70d8.chunk.js.map",
+    "main.js": "/static/js/main.f910e840.chunk.js",
+    "main.js.map": "/static/js/main.f910e840.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9072709d.js",
     "runtime-main.js.map": "/static/js/runtime-main.9072709d.js.map",
     "static/js/2.4f66a314.chunk.js": "/static/js/2.4f66a314.chunk.js",
     "static/js/2.4f66a314.chunk.js.map": "/static/js/2.4f66a314.chunk.js.map",
     "index.html": "/index.html",
     "static/js/2.4f66a314.chunk.js.LICENSE.txt": "/static/js/2.4f66a314.chunk.js.LICENSE.txt",
-    "static/media/DeenHaque2021.205e7525.pdf": "/static/media/DeenHaque2021.205e7525.pdf",
+    "static/media/DeenHaque.eb50b455.pdf": "/static/media/DeenHaque.eb50b455.pdf",
     "static/media/bitter-v17-latin-300.3253205e.woff": "/static/media/bitter-v17-latin-300.3253205e.woff",
     "static/media/bitter-v17-latin-300.355fdeea.eot": "/static/media/bitter-v17-latin-300.355fdeea.eot",
     "static/media/bitter-v17-latin-300.6f2d5156.ttf": "/static/media/bitter-v17-latin-300.6f2d5156.ttf",
@@ -32,6 +32,6 @@
   "entrypoints": [
     "static/js/runtime-main.9072709d.js",
     "static/js/2.4f66a314.chunk.js",
-    "static/js/main.ac8e70d8.chunk.js"
+    "static/js/main.f910e840.chunk.js"
   ]
 }
